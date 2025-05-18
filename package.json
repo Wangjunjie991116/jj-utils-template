@@ -1,6 +1,6 @@
 {
   "name": "jj-utils-template",
-  "version": "1.0.0",
+  "version": "0.0.1-beta",
   "description": "",
   "main": "dist/jj-utils-template.umd.js",
   "module": "dist/jj-utils-template.es.js",
