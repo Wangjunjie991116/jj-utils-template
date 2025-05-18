@@ -1,0 +1,33 @@
+{
+  "name": "jj-utils-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/jj-utils-template.umd.js",
+  "module": "dist/jj-utils-template.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build:dev": "vue-tsc && vite build --watch",
+    "build": "vue-tsc && vite build",
+    "example": "vite",
+    "preview": "vite preview",
+    "docs": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@vitejs/plugin-vue2": "^2.3.3",
+    "@vue/compiler-sfc": "2.7.10",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-dts": "^4.5.4",
+    "vue": "2.7.10",
+    "vue-tsc": "^2.2.10",
+    "vitepress": "1.0.0-rc.40"
+  },
+  "packageManager": "pnpm@9.9.0"
+}
