@@ -8,7 +8,7 @@ export default defineConfig({
     vue2(),
     dts({
       // 指定需要打包的文件和目录
-      include: ["src/**/*.ts", "src/**/*.vue"],
+      // include: ["src/**/*.ts", "src/**/*.vue"],
       // 排除不需要打包的文件和目录
       exclude: ["src/components/**", "src/examples/**"],
       // 在写入文件之前进行处理
